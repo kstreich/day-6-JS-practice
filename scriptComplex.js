@@ -2,7 +2,7 @@
 
 
 
-let kimsPhone = {
+let googlePixel = {
   brand: "Google",
   model: "Pixel 2",
   operatingSystem: "Android 8.0.0",
@@ -62,6 +62,16 @@ let kimsPhone = {
       pandora: "108 mb",
       metronome: "43.53 mb",
       audioFiles: "5.07 gb"
+    },
+    otherApps: {
+      instagram: "2.10 gb",
+      messages: "1.44 gb",
+      chrome: "1.34 gb",
     }
   }
 }
+
+/*Google Pixel Advert*/
+let story2 = `According to industry standard, the ${googlePixel.brand} ${googlePixel.model} is quite the game changer when it comes to phones. It weighs ${googlePixel.weight}, and the standard model's size is ${googlePixel.size.heightInches} by ${googlePixel.size.widthInches} by ${googlePixel.size.depthInches}. The camera is one of the best out of it's competitors. `
+
+console.log(story2);
